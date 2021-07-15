@@ -1,0 +1,168 @@
+/* font awesome */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* navigation menu */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-size: 1.5em;
+    
+}
+
+
+/* top players styles */
+.container-1{
+    background-color:#2D25A0;
+    width: 1440px;
+    padding: 156px;
+    border-radius: 5px;
+}
+.top-players{
+    display: flex;
+    justify-content: space-between;
+}
+.section-title{
+    font-size: 64px;
+    color: #FFFFFF;
+
+
+}
+.link-button{
+    width: 168px;
+    height: 44px;
+    color: #FFFFFF;
+    font-size: 16px;
+    background-color:#E02C6D ;
+    text-decoration: none;
+    padding: 10px 24px;
+    margin-top: 17px;
+}
+.fa-arrow-right{
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+
+.top-players .player-banner img{
+    width: 556px;
+    height: 438px;
+    margin-right: 140px;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.top-players .player-banner:hover img{
+    transform: scale(1.5);
+}
+
+/* all player styles */
+.container-2{
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 210px;
+    background: #FFFFFF;
+}
+
+.section-title-2{
+    font-size: 50px;
+    color: violet;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-bottom: 27px;
+    text-align: center;
+    margin-top: 56px;
+
+}
+ .player img{
+    width: 330px; 
+    height: 474px;
+
+
+}
+.player-name{
+    font-weight: bold;
+     font-size: 28px;
+     
+}
+
+/* messi part */
+.container-3{
+    display: flex;
+    margin-left: 180px;
+    margin-right: 210px;
+}
+
+.copa-title{
+    font-size: 48px;
+    font-weight: bold;
+    width: 469px;
+    height: 120px;
+    margin-top: 224px;
+}
+.copa-arg{
+    font-size: 16px;
+}
+
+.Messi-banner{
+    margin-left: 66px;
+    margin-top: 165px;
+
+}
+
+/*  footer+icon */
+footer img{
+    margin-left: 475px;
+    margin-right: 481px;
+    margin-bottom: 63px;
+    margin-top: 158px;}
+
+.icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.fa-instagram{
+    margin-left: 14px;
+}
+.fa-basketball-ball{
+    margin-left: 14px;
+}
+.fa-twitter{
+    margin-left: 14px;
+}
+.fa-youtube{
+    margin-left: 14px;
+}
+footer p{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 63px;
+}
+/* media queries */
+/* mobile-devices */
+@media only screen and (max-width:688px){
+}
+    
+    
+
+    
+    
